@@ -152,3 +152,30 @@ h3 {
 h4 {
   font-size: 2rem;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+}
+.box {
+  margin: 200px auto;
+  width: 600px;
+  padding: 20px;
+  border: 2px solid black;
+}
+input {
+  width: 80%;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 80%;
+  height: 40%;
+  margin-bottom: 20px;
+}
+label {
+  align-self: start;
+  margin-left: 20px;
+}
