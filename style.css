@@ -190,3 +190,35 @@ div {
 #success {
   font-size: 1.5rem;
 }
+@media screen and (max-width: 1060px) {
+  section {
+    padding: 50px;
+  }
+  #profile-info {
+    max-width: 400px;
+    font-size: 1.5rem;
+  }
+  p {
+    max-width: 700px;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    height: ;
+  }
+  #home-body {
+    background-size: auto;
+  }
+  section {
+    padding: 20px;
+  }
+  #profile-info {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 490px) {
+}
