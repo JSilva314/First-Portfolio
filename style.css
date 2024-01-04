@@ -204,9 +204,6 @@ div {
   }
 }
 @media screen and (max-width: 700px) {
-  body {
-    height: ;
-  }
   #home-body {
     background-size: auto;
   }
